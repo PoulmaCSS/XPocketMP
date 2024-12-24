@@ -21,7 +21,7 @@ class MossCarpet extends Block{
         return 0.1;
     }
 
-    public function onInteract(Block $block): void{
+    public function onInteract(Block $block): bool{
         $this->growVines();
     }
 
